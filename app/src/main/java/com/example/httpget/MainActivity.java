@@ -43,10 +43,6 @@ public class MainActivity extends AppCompatActivity {
         fab_scrollToBottom = findViewById(R.id.fab_scrollToBottom);
         fab_scrollToTop = findViewById(R.id.fab_scrollToTop);
 
-        edit_url.setFocusable(false);
-        edit_url.setFocusable(true);
-        edit_query.setFocusable(false);
-        edit_query.setFocusable(true);
 
         listener = new OnFetchHtml() {
             @Override
